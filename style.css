@@ -14,8 +14,18 @@ h3{
   color: rgb(90, 81, 81);
   text-align: center;
 }
-p {
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 20px; 
-  text-align: center; 
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
 }
