@@ -24,7 +24,7 @@ ul{
   width: 200px;
   background-color: white;
 }
-li{
+ul li{
   display: block;
   color: black;
   padding: 8px 16px;
@@ -33,6 +33,9 @@ li{
 li a:hover{
   background-color: #555;
   color: white;
+}
+a {
+  text-decoration: none;
 }
 #looks {
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
