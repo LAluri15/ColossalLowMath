@@ -31,21 +31,25 @@ li a:hover{
   background-color: #555;
   color: white;
 }
-table {
-  border: 1px soild black;
+#looks {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
 }
 
-td, th {
-  border: 1px solid #dddddd;
-  text-align: left;
+#looks td, #looks th {
+  border: 1px solid #ddd;
   padding: 8px;
 }
 
-tr:nth-child(even) {
-  background-color: #dddddd;
-}
-#looks {
-  font-family: Arial, Helvetica, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
+#looks tr:nth-child(even){background-color: #f2f2f2;}
+
+#looks tr:hover {background-color: #ddd;}
+
+#looks th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgb(199, 143, 224);
+  color: white;
 }
